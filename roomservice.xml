@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Sources -->
+  <!-- Oneplus 6T -->
+  <project name="Lineage-Extended/android_device_oneplus_fajita" path="device/oneplus/fajita" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_device_oneplus_common" path="device/oneplus/common" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="Xtended-17" />
+
+  <!-- Dependencies -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+
+  <!-- Remove Projects -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <remove-project name="LineageOS/android_build" />
+
+  <!-- Projects from my github -->
+  <project name="Lineage-Extended/android_frameworks_base" path="frameworks/base" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_vendor_lineage" path="vendor/lineage" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" revision="Xtended-17" />
+  <project name="Lineage-Extended/android_build" path="build/make" remote="github" revision="Xtended-17" />
+  <!--project name="Lineage-Extended/android_packages_apps_CustomSettings" path="packages/apps/CustomSettings" remote="github" revision="Xtended-17" /-->
+
+</manifest>
